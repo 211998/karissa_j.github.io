@@ -1,0 +1,343 @@
+body{
+	overflow-x: hidden;
+}
+/*first page*/
+#banner{
+	height: 100vh;
+	background-image: url(images/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+}
+#logo{
+	height: 28vh;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+/*intro*/
+.intro{
+	margin-left: 70px;
+	color: white;
+	font-family: 'Kurale', serif;
+}
+p#int{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	margin-left: 70px;
+	margin-top: 50px;
+	font-size: 1.7em;
+}
+#explore{
+	border-radius: 17px;
+	margin-left: 100px;
+	margin-top: 35px;
+	background: #eddde5;
+}
+#explore a{
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	color: purple;
+	text-align: center;
+	font-size: 1.1em;
+}
+/*button*/
+.btn:hover{
+	box-shadow: 0 2px 15px #a10224;
+}
+
+
+
+/*homepage*/
+/*nav*/
+#logo2{
+	margin-top: 13px;
+	height: 18vh;
+}
+#nav{
+	background: linear-gradient(to right, #a10224, #780125, #5e032f, #22012b);
+}
+#collapsediv{
+	margin-top: 11vh;
+	margin-left: 45%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.nav-item a{
+	font-size: 1.2em;
+	margin-right: 80px;
+}
+/*end nav*/
+
+
+
+
+/*banner*/
+#bannerbgimg{
+	background-image: url(images/banner3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
+}
+#int2, #int3{
+	font-size: 2.7em;
+	color: #d0c9d1;
+	padding-left: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+#int2{
+	padding-top: 60px;
+}
+#int4{
+	font-size: 2.5em;
+	color: white;
+	padding-left: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+.int5{
+	font-size: 1.3em;
+	color: #c7abc2;
+	padding-left: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+/*end banner*/
+
+
+
+/*about career*/
+#div-career{
+	float: right;
+}
+.pcareer{
+	background: linear-gradient(90deg, #a10224, #22012b);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 100px;
+	font-size: 2em;
+	padding-top: 20vh;
+	text-align: center;
+}
+#img6{
+	width: 80%;
+	margin-left: 80px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#cv{
+	background: linear-gradient(90deg, #a10224, #22012b);
+	border-radius: 17px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+#cv a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#cvdl{
+	float: right;
+}
+/*end about career*/
+
+
+/*split*/
+.splitp{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.split{
+	background: linear-gradient(90deg, #a10224, #22012b);
+	height: 1vh;
+	width: 85%;
+}
+
+
+/*services and professions*/
+#snph{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3em;
+	margin-top: 40px;
+}
+.fa-solid, .fa-regular, .snpp, #snph, .snppm{
+	 background: linear-gradient(90deg, #a10224, #22012b);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.snpp{
+	margin-top: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	padding-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.snppm{
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 1.5em;
+	padding-bottom: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+/*end services and professions*/
+
+
+
+
+/*USP*/
+#vl{
+	border-right: 4px solid #a10224;
+}
+#usph, .uspp, .uspp2, #abtmeh, .abtmep, #wsh, #testih, #ctah{
+	background: linear-gradient(90deg, #a10224, #5e032f, #22012b);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+#usph{
+	margin-top: 70px;
+	margin-left: 40px;
+	text-align: right;
+	margin-bottom: 100px;
+	font-size: 2.4em;
+	font-family: 'Poppins', sans-serif;
+}
+.uspp{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+.uspp2{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+
+
+
+
+/*aboutme*/
+#abtmeh, .abtmep{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 30px;
+	text-align: left;
+	margin-left: 200px;
+}
+.abtmep{
+	font-size: 1.2em;
+}
+#unl{
+	background: linear-gradient(90deg, #a10224, #5e032f, #22012b);
+	width: 80%;
+	height: 1vh;
+	margin-bottom: 30px;
+	float: right;
+}
+
+
+
+/*worksamples*/
+#wsh{
+	margin-left: 200px;
+	margin-top: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 40px;
+}
+
+.uld{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ul{
+	background: linear-gradient(90deg, #a10224, #5e032f, #22012b);
+	width: 60%;
+	height: 1vh;
+}
+#ws1, #ws2, #ws3, #ws4, #ws5, #ws6{
+	max-width: 100%;
+	height: auto;
+	height:30vh; 
+	margin-bottom: 30px;
+}
+
+
+/*testimonial*/
+#testih{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 3.3em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*cta*/
+#ctah{
+	margin-top: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+#ctab{
+	background: linear-gradient(90deg, #a10224, #5e032f, #22012b);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.7em;
+	text-decoration: none;
+	margin-top: 50px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+
+
+
+/*footer*/
+#footer{
+	width: 100%;
+	height: auto;
+	background: linear-gradient(90deg, #a10224, #5e032f, #22012b);
+}
+
+.footh, .footp{
+	background: linear-gradient(to right, white, darkgray);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	margin-left: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.footh{
+	margin-top: 40px;
+}
+#hireme{
+	margin-left: 30px;
+	margin-top: 15px;
+	background: #eddde5;
+}
+#hireme a{
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	color: purple;
+	text-align: center;
+	font-size: 1.1em;
+}
+.fa-brands{
+	color: white;
+	margin-top: 30px;
+}
+
+#copyright{
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(90deg, #a10224, #5e032f, #22012b);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	text-align: center;
+	font-size: 1.1em;
+	margin-top: 20px;
+}
